@@ -1,9 +1,9 @@
-newz=require('./pageLocators');
+newz=require('./function.js');
 describe('sign up', function () {
     it('should check for signup', function () {
 
 
-        browser.get('https://test.linotype.com/account/login?tab=new');
+        newz.url('https://test.linotype.com/account/login?tab=new');
         newz.c('Uba');
         newz.ci('bkt');
         newz.p('radhika12345');

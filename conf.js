@@ -3,8 +3,9 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
     suites: {
-       home:'Linotype/passValue.js',
-        signup: 'Linotype/functions.js'
+       //home:'studentHelper/inquiry.js',
+       home: 'Linotype/testCase.js',
+
     },
     capabilities: {
     'browserName': 'chrome'
