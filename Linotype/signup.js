@@ -13,10 +13,10 @@ describe('sign up', function () {
         newz.l('manandhar');
         newz.s('deipokhari');
         newz.z('44600');
-        var n= newz.butt();
-        if (n!=null){
-            console.log('asdffffffadsfsdfsdadsaf');
-        }
+        newz.cou('Nepal');
+        newz.butt();
+        browser.sleep(20000);
+
 
     });
 });
